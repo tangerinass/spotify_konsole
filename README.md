@@ -4,7 +4,7 @@ a bundle of methods to be able to see lyrics, change songs and playlists, and th
 Your credentials need to be stores in a .env with the spotify client_id and client_secret.
 
 ex:
-`bash
+`
 CLIENT_ID_SPOTIFY="foo"
 CLIENT_SECRET_SPOTIFY="bar"
 `
