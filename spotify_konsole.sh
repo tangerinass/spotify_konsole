@@ -1,6 +1,5 @@
 # !/bin/bash
-DIR=$HOME/Scripts/spotify
-TMP_DIR=$DIR/tmp
+source $(dirname "$0")/common.sh
 
 profile="Custom3"
 access_token=$(sh $DIR/spotify_token.sh)

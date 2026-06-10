@@ -1,6 +1,5 @@
 # !/bin/bash
-DIR=$HOME/Scripts/spotify
-TMP_DIR=$DIR/tmp
+source $(dirname "$0")/common.sh
 
 res=$(pgrep spotify)
 if [[ "$res" == "" ]]; then

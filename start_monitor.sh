@@ -1,5 +1,4 @@
 # !/bin/bash
-DIR=$HOME/Scripts/spotify
-TMP_DIR=$DIR/tmp
+source $(dirname "$0")/common.sh
 
 sh $DIR/monitor_dbus.sh > /dev/null &

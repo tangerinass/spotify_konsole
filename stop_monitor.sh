@@ -1,7 +1,7 @@
 # !/bin/bash
-DIR=$HOME/Scripts/spotify
-TMP_DIR=$DIR/tmp
+source $(dirname "$0")/common.sh
 
+echo $TMP_DIR
 pid=$(cat $TMP_DIR/kill.pid)
 
 kill -- $pid

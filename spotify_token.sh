@@ -1,6 +1,5 @@
-#!/bin/bash
-DIR=$HOME/Scripts/spotify
-TMP_DIR=$DIR/tmp
+# !/bin/bash
+source $(dirname "$0")/common.sh
 
 source $DIR/.env/VARS.sh
 
